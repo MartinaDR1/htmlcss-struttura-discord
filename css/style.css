@@ -34,6 +34,10 @@
     background-color: yellow;
 }
 
+li{
+    display: inline-block;
+}
+
 .bottom-header{
     height: 15rem;
     border: 1px solid red;
