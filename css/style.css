@@ -9,6 +9,12 @@
     margin: auto;
 }
 
+.flex{
+    display: flex;
+}
+
+/*Header*/
+
 #app-header{
     background-color: #3161e0;
     border: 1px solid pink;
@@ -19,7 +25,6 @@
     border: 1px solid black;
     padding: 5px;
 
-    display: flex;
     justify-content: space-between;
 }
 
@@ -34,7 +39,6 @@
     border: 1px solid red;
     padding: 5px;
     
-    display: flex;
     justify-content: space-around;
 }
 
@@ -43,4 +47,30 @@
     width: 400px;
     background-color: coral;
     margin: 15px 0;
+}
+
+/*Main*/
+
+section{
+    height: 20rem;
+    padding: 2rem;
+    
+}
+
+.image-section{
+    background-color: blue;
+    
+    height: 250px;
+    width: 60%;
+}
+
+.text-section{
+    background-color: pink;
+    
+    height: 250px;
+    width: 40%;
+}
+
+.special{
+    background-color: lightgray;
 }
