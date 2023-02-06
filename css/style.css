@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+#app-header{
+    background-color: #3161e0;
+    border: 1px solid pink;
+}
+
+#app-header .top-header{
+    height: 2rem;
+    border: 1px solid black;
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .login{
+    height: 100%;
+    width: 150px;
+    background-color: yellow;
+}
+
+.bottom-header{
+    height: 15rem;
+    border: 1px solid red;
+    padding: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner{
+    height: 200px;
+    width: 400px;
+    background-color: coral;
+    margin: 15px 0;
+}
